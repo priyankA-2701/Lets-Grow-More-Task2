@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700|Ubuntu&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  background: #111313;
+}
+body {
+  background-size: cover;
+}
+.Nav {
+  font-family: "Ubuntu", sans-serif;
+  color: rgb(0, 0, 0);
+  height: 70px;
+  padding: 20px;
+  padding-top: 20px;
+  font-weight: 300;
+}
+h1 {
+  float: left;
+  color: #f5f6f7a3;
+  font-size: 60px;
+  text-align: center;
+  
+  /* align-items: center; */
+}
+.btn {
+  float: right;
+  padding: 10px;
+  background-color: #faf4faa3;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.btn:hover {
+  background-color: rgb(224, 175, 175);
+}
+.row {
+  margin: 30px;
+}
+.column {
+  float: left;
+  width: 23%;
+  padding: 10 10px;
+  margin: 20px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(214, 208, 208, 0.2);
+  padding: 30px;
+  text-align: center;
+  background-color: #8f9196;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.card-img-top {
+  background-color: #cb9af3;
+  border-radius: 50%;
+  height: 50%;
+  width: 50%;
+  border: 2px solid rgb(216, 94, 94);
+}
+.card-title {
+  font-family: "Ubuntu", sans-serif;
+  color: aliceblue;
+}
+.card-text {
+  color: rgb(247, 58, 11);
+  font-family: "Ubuntu", sans-serif;
+}
+.card:hover {
+  box-shadow: 0px 0px 5px 5px rgb(187, 21, 104);
+  cursor: pointer;
+}
+.card:hover .card-text {
+  color: rgb(54, 12, 243);
+}
